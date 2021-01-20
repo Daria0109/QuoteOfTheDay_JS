@@ -125,30 +125,26 @@ generateBtn.addEventListener("click", () => {
   hideTitle();
   container.classList.add("hide");
   loader.classList.toggle("active");
-  generateBtn.disabled = true;
   setTimeout(() => {
     loader.classList.toggle("active");
     container.classList.remove("hide");
-    generateBtn.disabled = false;
     if (!quotes.length) {
-      quote.innerText = "You've watched all quotes";
+      quote.innerText = "Thanks, you've watched all quotes. Have a nice day!";
       author.innerText = "";
-      generateBtn.disabled = true;
+      quotePhoto.classList.add("hide");
     } else {
-      const quoteId = generateId();
+      const quoteId = generateQuoteId();
       quote.innerText = quotes[quoteId].quote;
       author.innerText = quotes[quoteId].author;
       quotePhoto.src = quotes[quoteId].photo;
       quotes.splice(quoteId, 1);
-      console.log(quotes);
     }
-  }, 3000);
+  }, 2000);
 });
 
 function hideTitle() {
   titleBlock.classList.add("hide");
 }
-function showQuote() {}
-function generateId() {
+function generateQuoteId() {
   return Math.floor(Math.random() * quotes.length);
 }
