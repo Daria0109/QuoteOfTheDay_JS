@@ -10,6 +10,8 @@ const likesIcon = document.querySelector(".likes-icon");
 const likesSpan = document.querySelector(".likes-span");
 const shareIcon = document.querySelector(".share-icon");
 
+let quoteId;
+
 generateBtn.addEventListener("click", () => {
   // hide a title
   titleBlock.classList.add("hide");
@@ -30,12 +32,17 @@ function generateRandomQuote() {
       author.innerText = "";
       quotePhoto.classList.add("hide");
     } else {
-      const quoteId = generateQuoteId();
+      quoteId = generateQuoteId();
       quote.innerText = quotes[quoteId].quote;
       author.innerText = quotes[quoteId].author;
       quotePhoto.src = quotes[quoteId].photo;
-      likesIcon.style = "color: #fff";
-      quotes.splice(quoteId, 1);
+      likesSpan.innerHTML = quotes[quoteId].likesCount;
+      if (!quotes[quoteId].isLiked) {
+        likesIcon.style = "color: #fff";
+      } else {
+        likesIcon.style = "color: #f94144";
+      }
+      // quotes.splice(quoteId, 1);
     }
   }, 2000);
 }
@@ -44,5 +51,9 @@ function generateQuoteId() {
 }
 
 likesIcon.addEventListener("click", () => {
-  likesIcon.style = "color: red";
+  if (!quotes[quoteId].isLiked) {
+    likesSpan.innerHTML = Number(likesSpan.innerHTML) + 1;
+    likesIcon.style = "color: #f94144";
+    quotes[quoteId].isLiked = true;
+  } else return;
 });

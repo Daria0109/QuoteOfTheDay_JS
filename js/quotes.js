@@ -5,6 +5,8 @@ const quotes = [
     author:
       " Confucius - Chinese philosopher, politician and statesman (551 BCl-479 BC)",
     photo: "./assets/qoutes/0.jpg",
+    isLiked: false,
+    likesCount: 267,
   },
   {
     id: 1,
@@ -12,6 +14,8 @@ const quotes = [
     author:
       "Estée Lauder - American founder of the cosmetic company (1908-2004)",
     photo: "./assets/qoutes/1.jpg",
+    isLiked: false,
+    likesCount: 243,
   },
   {
     id: 2,
@@ -20,6 +24,8 @@ const quotes = [
     author:
       "Amy Cuddy - American Social Psychologist, author and lecturer (b.1972)",
     photo: "./assets/qoutes/2.jpg",
+    isLiked: false,
+    likesCount: 188,
   },
   {
     id: 3,
@@ -27,6 +33,8 @@ const quotes = [
       "My favorite things in life don't cost any money. It's really clear that the most precious resource we all have is time",
     author: "Steve Jobs - American Entrepreneur (1955-2011)",
     photo: "./assets/qoutes/3.jpg",
+    isLiked: false,
+    likesCount: 125,
   },
   {
     id: 4,
@@ -34,6 +42,8 @@ const quotes = [
       "We are what we repeatedly do. Excellence, then, is not an act, but a habit.",
     author: "Aristotle - Greek philosopher (384 BC-322 BC)",
     photo: "./assets/qoutes/4.jpg",
+    isLiked: false,
+    likesCount: 224,
   },
   {
     id: 5,
@@ -41,6 +51,8 @@ const quotes = [
     author:
       "Audrey Hepburn - British actress, model and ambassador of UNICEF (1929-1996)",
     photo: "./assets/qoutes/5.jpg",
+    isLiked: false,
+    likesCount: 291,
   },
   {
     id: 6,
@@ -49,6 +61,8 @@ const quotes = [
     author:
       "Nelson Mandela - Politics and President of South Africa (1918-2013)",
     photo: "./assets/qoutes/6.jpg",
+    isLiked: false,
+    likesCount: 198,
   },
   {
     id: 7,
@@ -57,6 +71,8 @@ const quotes = [
     author:
       "Henry Ford - American entrepreneur, pioneer of the automotive industry (1863-1947)",
     photo: "./assets/qoutes/7.jpg",
+    isLiked: false,
+    likesCount: 177,
   },
   {
     id: 8,
@@ -65,6 +81,8 @@ const quotes = [
     author:
       "Napoleon Bonaparte - French commander, statesman and emperor (1769-1821)",
     photo: "./assets/qoutes/8.jpg",
+    isLiked: false,
+    likesCount: 135,
   },
   {
     id: 9,
@@ -72,6 +90,8 @@ const quotes = [
       "Don't spend time beating on a wall, hoping to transform it into a door.",
     author: "Coco Chanel - French fashion designer (1883 - 1971)",
     photo: "./assets/qoutes/9.jpg",
+    isLiked: false,
+    likesCount: 256,
   },
   {
     id: 10,
@@ -79,6 +99,8 @@ const quotes = [
       "Twenty years from now you will be more disappointed by the things that you didn’t do than by the ones you did do, so throw off the bowlines, sail away from safe harbor, catch the trade winds in your sails.  Explore, Dream, Discover.",
     author: "Mark Twain - American writer and humorist (1835-1910)",
     photo: "./assets/qoutes/10.jpg",
+    isLiked: false,
+    likesCount: 298,
   },
   {
     id: 11,
@@ -86,6 +108,8 @@ const quotes = [
       "Perfection is achieved, not when there is nothing more to add, but when there is nothing left to take away.",
     author: "Antoine de Saint-Exupéry - French writer and aviator (1900-1944)",
     photo: "./assets/qoutes/11.jpg",
+    isLiked: false,
+    likesCount: 211,
   },
   {
     id: 12,
@@ -93,6 +117,8 @@ const quotes = [
       "Never give up on a dream just because of the time it will take to accomplish it. The time will pass anyway.",
     author: "Earl Nightingale – American radio personality (1921-1989)",
     photo: "./assets/qoutes/12.jpg",
+    isLiked: false,
+    likesCount: 290,
   },
   {
     id: 13,
@@ -101,6 +127,8 @@ const quotes = [
     author:
       "Lev Nikolaevich Tolstoy - Russian writer and philosopher (1828-1910)",
     photo: "./assets/qoutes/13.jpg",
+    isLiked: false,
+    likesCount: 199,
   },
   {
     id: 14,
@@ -108,5 +136,7 @@ const quotes = [
       "However difficult life may seem, there is always something you can do and succeed at.",
     author: "Stephen Hawking - British Theoretical Physicist (1942-2018)",
     photo: "./assets/qoutes/14.jpg",
+    isLiked: false,
+    likesCount: 182,
   },
 ];
