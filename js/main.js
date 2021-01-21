@@ -67,12 +67,13 @@ shareIcon.addEventListener("click", () => {
   modalWindow.classList.toggle("active");
   overlay.classList.toggle("active");
 });
-closeModalButton.addEventListener("click", () => {
+closeModalButton.addEventListener("click", (e) => {
+  e.preventDefault();
   closeModalWindow();
 });
 modalLinks.forEach((link) => {
   link.addEventListener("click", (e) => {
-    e.preventDefault;
+    e.preventDefault();
     closeModalWindow();
   });
 });

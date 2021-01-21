@@ -6,7 +6,7 @@ const quotes = [
       " Confucius - Chinese philosopher, politician and statesman (551 BCl-479 BC)",
     photo: "./assets/qoutes/0.jpg",
     isLiked: false,
-    likesCount: 267,
+    likesCount: 0,
   },
   {
     id: 1,
@@ -15,7 +15,7 @@ const quotes = [
       "Estée Lauder - American founder of the cosmetic company (1908-2004)",
     photo: "./assets/qoutes/1.jpg",
     isLiked: false,
-    likesCount: 243,
+    likesCount: 0,
   },
   {
     id: 2,
@@ -25,7 +25,7 @@ const quotes = [
       "Amy Cuddy - American Social Psychologist, author and lecturer (b.1972)",
     photo: "./assets/qoutes/2.jpg",
     isLiked: false,
-    likesCount: 188,
+    likesCount: 0,
   },
   {
     id: 3,
@@ -34,7 +34,7 @@ const quotes = [
     author: "Steve Jobs - American Entrepreneur (1955-2011)",
     photo: "./assets/qoutes/3.jpg",
     isLiked: false,
-    likesCount: 125,
+    likesCount: 0,
   },
   {
     id: 4,
@@ -43,7 +43,7 @@ const quotes = [
     author: "Aristotle - Greek philosopher (384 BC-322 BC)",
     photo: "./assets/qoutes/4.jpg",
     isLiked: false,
-    likesCount: 224,
+    likesCount: 0,
   },
   {
     id: 5,
@@ -52,7 +52,7 @@ const quotes = [
       "Audrey Hepburn - British actress, model and ambassador of UNICEF (1929-1996)",
     photo: "./assets/qoutes/5.jpg",
     isLiked: false,
-    likesCount: 291,
+    likesCount: 0,
   },
   {
     id: 6,
@@ -62,7 +62,7 @@ const quotes = [
       "Nelson Mandela - Politics and President of South Africa (1918-2013)",
     photo: "./assets/qoutes/6.jpg",
     isLiked: false,
-    likesCount: 198,
+    likesCount: 0,
   },
   {
     id: 7,
@@ -72,7 +72,7 @@ const quotes = [
       "Henry Ford - American entrepreneur, pioneer of the automotive industry (1863-1947)",
     photo: "./assets/qoutes/7.jpg",
     isLiked: false,
-    likesCount: 177,
+    likesCount: 0,
   },
   {
     id: 8,
@@ -82,7 +82,7 @@ const quotes = [
       "Napoleon Bonaparte - French commander, statesman and emperor (1769-1821)",
     photo: "./assets/qoutes/8.jpg",
     isLiked: false,
-    likesCount: 135,
+    likesCount: 0,
   },
   {
     id: 9,
@@ -91,7 +91,7 @@ const quotes = [
     author: "Coco Chanel - French fashion designer (1883 - 1971)",
     photo: "./assets/qoutes/9.jpg",
     isLiked: false,
-    likesCount: 256,
+    likesCount: 0,
   },
   {
     id: 10,
@@ -100,7 +100,7 @@ const quotes = [
     author: "Mark Twain - American writer and humorist (1835-1910)",
     photo: "./assets/qoutes/10.jpg",
     isLiked: false,
-    likesCount: 298,
+    likesCount: 0,
   },
   {
     id: 11,
@@ -109,7 +109,7 @@ const quotes = [
     author: "Antoine de Saint-Exupéry - French writer and aviator (1900-1944)",
     photo: "./assets/qoutes/11.jpg",
     isLiked: false,
-    likesCount: 211,
+    likesCount: 0,
   },
   {
     id: 12,
@@ -118,7 +118,7 @@ const quotes = [
     author: "Earl Nightingale – American radio personality (1921-1989)",
     photo: "./assets/qoutes/12.jpg",
     isLiked: false,
-    likesCount: 290,
+    likesCount: 0,
   },
   {
     id: 13,
@@ -128,7 +128,7 @@ const quotes = [
       "Lev Nikolaevich Tolstoy - Russian writer and philosopher (1828-1910)",
     photo: "./assets/qoutes/13.jpg",
     isLiked: false,
-    likesCount: 199,
+    likesCount: 0,
   },
   {
     id: 14,
@@ -137,6 +137,6 @@ const quotes = [
     author: "Stephen Hawking - British Theoretical Physicist (1942-2018)",
     photo: "./assets/qoutes/14.jpg",
     isLiked: false,
-    likesCount: 182,
+    likesCount: 0,
   },
 ];
