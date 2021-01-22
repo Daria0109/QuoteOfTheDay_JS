@@ -30,7 +30,6 @@ body {
 
 .container-content {
   height: 85%;
-  /* border-bottom: 1px solid black; */
   display: flex;
   align-items: center;
   position: relative;
@@ -118,7 +117,6 @@ body {
 
 .quote-block {
   text-align: right;
-  /* border: 1px solid black; */
   margin-left: 50px;
   position: relative;
 }
@@ -141,7 +139,6 @@ body {
   margin-bottom: 30px;
 }
 .actions {
-  /* border: 1px solid black; */
   list-style: none;
   display: flex;
   align-items: center;
