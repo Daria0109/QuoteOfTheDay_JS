@@ -12,6 +12,7 @@ const likesIcon = document.querySelector(".likes-icon");
 const likesSpan = document.querySelector(".likes-span");
 const shareIcon = document.querySelector(".share-icon");
 
+// Modal elements
 const closeModalButton = document.querySelector(".modal__close");
 const modalWindow = document.querySelector(".modal");
 const modalLinks = document.querySelectorAll(".social__link");
@@ -63,10 +64,13 @@ likesIcon.addEventListener("click", () => {
   } else return;
 });
 
+// Open modal event
 shareIcon.addEventListener("click", () => {
   modalWindow.classList.toggle("active");
   overlay.classList.toggle("active");
 });
+
+// Close modal event
 closeModalButton.addEventListener("click", (e) => {
   e.preventDefault();
   closeModalWindow();

@@ -21,7 +21,7 @@ body {
   max-width: 1300px;
   width: 100%;
   margin: auto;
-  padding: 0 20px;
+  padding: 5px 20px;
   max-height: 70%;
   height: 100%;
   border: 10px solid rgba(255, 255, 255, 0.9);
@@ -124,6 +124,7 @@ body {
 }
 .quote-icon {
   position: absolute;
+  font-size: 80px;
   z-index: -1;
   top: 0;
   left: 0;
@@ -391,45 +392,4 @@ body {
 .overlay.active {
   opacity: 1;
   pointer-events: all;
-}
-
-@media (max-width: 1120px) {
-  .title {
-    font-size: 100px;
-  }
-}
-@media (max-width: 600px) {
-  .icon {
-    font-size: 220px;
-  }
-  .title-block {
-    text-align: center;
-  }
-  .title {
-    font-size: 80px;
-  }
-  .title::after {
-    display: none;
-  }
-  .container-controls {
-    padding-right: 0;
-    justify-content: center;
-  }
-}
-@media (max-width: 360px) {
-  .icon {
-    font-size: 180px;
-  }
-  .title {
-    font-size: 60px;
-  }
-  .generate-btn {
-    padding: 10px 15px;
-    font-size: 18px;
-  }
-}
-@media (max-height: 700px) {
-  .wrapper {
-    max-height: 100%;
-  }
 }

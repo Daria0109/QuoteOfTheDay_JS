@@ -1,0 +1,154 @@
+@media (max-width: 1200px) {
+  .quote {
+    font-size: 22px;
+  }
+}
+
+@media (max-width: 1120px) {
+  .title {
+    font-size: 100px;
+  }
+}
+@media (max-width: 1060px) {
+  .photo {
+    width: 380px;
+    height: 250px;
+    box-shadow: 15px 15px 1px rgb(255 255 255 / 85%);
+  }
+}
+@media (max-width: 980px) {
+  .quote-block {
+    margin-left: 20px;
+  }
+  .quote-icon {
+    font-size: 50px;
+  }
+  .quote {
+    margin-left: 60px;
+    font-size: 20px;
+  }
+}
+@media (max-width: 980px) {
+  .quote-container {
+    flex-direction: column;
+  }
+  .quote-block {
+    margin-left: 0;
+  }
+  .photo {
+    width: 300px;
+    height: 200px;
+    align-self: flex-start;
+    margin-bottom: 10px;
+    box-shadow: 5px 5px 1px rgb(255 255 255 / 85%);
+  }
+  .container-controls {
+    padding-right: 0;
+    justify-content: center;
+  }
+}
+@media (max-width: 790px) {
+  .wrapper {
+    max-height: 100%;
+  }
+  .photo {
+    margin-bottom: 70px;
+  }
+}
+@media (max-width: 600px) {
+  .icon {
+    font-size: 220px;
+  }
+  .title-block {
+    text-align: center;
+  }
+  .title {
+    font-size: 80px;
+  }
+  .title::after {
+    display: none;
+  }
+  .container-controls {
+    padding-right: 0;
+    justify-content: center;
+  }
+}
+@media (max-width: 500px) {
+  .photo {
+    margin-bottom: 30px;
+  }
+}
+@media (max-width: 440px) {
+  body {
+    padding: 20px;
+  }
+  .wrapper {
+    border-width: 5px;
+    padding: 10px;
+  }
+  .photo {
+    width: 250px;
+    height: 165px;
+    margin-bottom: 10px;
+  }
+  .quote-icon {
+    font-size: 25px;
+  }
+  .quote {
+    margin-left: 30px;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 10px;
+  }
+  .author {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  .actions-icon {
+    font-size: 30px;
+  }
+  .container-controls {
+    align-items: center;
+  }
+}
+
+@media (max-width: 355px) {
+  .icon {
+    font-size: 180px;
+  }
+  .title {
+    font-size: 60px;
+  }
+  .generate-btn {
+    padding: 10px 15px;
+    font-size: 18px;
+  }
+  .fas.quote-icon {
+    display: none;
+  }
+  .quote {
+    margin-left: 0px;
+    text-align: justify;
+  }
+}
+@media (max-width: 325px) {
+  .photo {
+    width: 220px;
+    height: 135px;
+  }
+  .quote {
+    font-size: 17px;
+  }
+  .author {
+    margin-bottom: 10px;
+    font-size: 14px;
+  }
+  .actions-icon {
+    font-size: 25px;
+  }
+  .generate-btn {
+    font-size: 16px;
+  }
+}
+@media (max-height: 800px) {
+}
